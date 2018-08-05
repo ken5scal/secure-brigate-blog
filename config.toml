@@ -32,8 +32,8 @@ hasCJKLanguage = true
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "red"
-    	accent  = "teal"
+        primary = "indigo"
+        accent  = "amber"
 
     [params.font]
         text = "Ubuntu"
