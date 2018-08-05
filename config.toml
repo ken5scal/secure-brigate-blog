@@ -1,5 +1,5 @@
 baseurl = "https://example.org/"
-languageCode = "en-us"
+languageCode = "ja"
 title = "Material Docs"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
