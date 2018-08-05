@@ -1,6 +1,6 @@
 baseurl = "https://example.org/"
 languageCode = "ja"
-title = "Material Docs"
+title = "セキュア旅団"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -10,13 +10,13 @@ hasCJKLanguage = true
 
 [params]
 	# General information
-	author = "Digitalcraftsman"
-	description = "A material design theme for documentations."
+	author = "ken5scal"
+	description = "セキュア旅団のページ説明"
 	copyright = "Released under the MIT license"
 
 	# Repository
-	provider = "GitHub"
-	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
+	#provider = "GitHub"
+	#repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
 	version = "1.0.0"
 	logo = "images/logo.png"
@@ -41,9 +41,9 @@ hasCJKLanguage = true
 
 
 [social]
-    twitter = ""
-    github  = "digitalcraftsman"
-    email   = "hello@email.com"
+    twitter = "ken5scal"
+    github  = "ken5scal"
+    email   = "kengoscal@gmail.com"
 
 #[[menu.main]]
 #	name   = "Material"
