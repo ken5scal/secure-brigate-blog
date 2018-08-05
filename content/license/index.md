@@ -5,3 +5,7 @@ draft: true
 ---
 
 ほげふが
+
+{{< note title="Note" >}}
+Nothing to see here, move along.
+{{< /note >}}

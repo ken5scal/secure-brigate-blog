@@ -45,10 +45,10 @@ hasCJKLanguage = true
     github  = "digitalcraftsman"
     email   = "hello@email.com"
 
-[[menu.main]]
-	name   = "Material"
-	url    = "/"
-	weight = 0
+#[[menu.main]]
+#	name   = "Material"
+#	url    = "/"
+#	weight = 0
 
 [[menu.main]]
 	name   = "Getting started"
