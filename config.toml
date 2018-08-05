@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://suspicious-mccarthy-47a42f.netlify.com/"
 languageCode = "ja"
 title = "セキュア旅団"
 theme = "hugo-material-docs"
