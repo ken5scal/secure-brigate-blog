@@ -1,81 +1,178 @@
+
 baseurl = "https://secure-brigade.com/"
 languageCode = "ja"
 title = "セキュア旅団"
-theme = "hugo-material-docs"
+theme = "castanet"#"hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
+disqusShortname = "securebrigate"
 # Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
 hasCJKLanguage = true
 
+[permalinks]
+	page = "/:filename/"
+	about = "/:filename/"
+	episode = "/:filename/"
+
 [taxonomies]
 tag = "tags"
 
+[[Menu.Main]]
+    name = "About"
+    identifier = "about"
+    url = "about"
+
+[[Menu.Main]]
+    name = "Contact"
+    identifier = "contact"
+    url = "contact"
+
+[[Menu.Main]]
+    name = "Hosts"
+    identifier = "hosts"
+    url = "host"
+
+[[Menu.Main]]
+    name = "Guests"
+    identifier = "guests"
+    url = "guest"
+
+[[Menu.Main]]
+    name = "Resources"
+    identifier = "resources"
+    url = "#!"
+
+[[Menu.Main]]
+    name = "Books"
+    identifier = "books"
+    url = "books"
+    parent = "resources"
+[[Menu.Main]]
+    name = "Podcasts"
+    identifier = "podcasts"
+    url = "books"
+    parent = "resources"
+
 [params]
-	# General information
-	author = "ken5scal"
-	description = "セキュア旅団のページ説明"
-	copyright = "Released under the MIT license"
-
-	# Repository
-	# provider = "GitHub"
-	# repo_url = "https://github.com/ken5scal/secure-brigate-blog"
-
-	#version = "1.0.0"
-	logo = "images/logo0.png"
+	# param for Castanet https://github.com/mattstratton/castanet/blob/master/REFERENCE.md
+	site_theme = "orange"
+	site_layout = "grid"
+	# enable_jumbo = "true"
+	# truncate = "600"
+	# custom_css = ["custom.css", "other_custom.css"]
+	about_logo = "images/logo.png"
 	favicon = ""
+	copyright_notice = "Copyright 2018 [Kengo Suzuki](https://github.com/ken5scal)"
+	#itunes_subscribe =
+  #android_subscribe
+	#google_play_subscribe
+	#stitcher_subscribe
+	#soundcloud_subscribe
+	#pocketcasts_subscribe
+	#mailchimp_subscribe
+	#rss_subscribe
+	description = "awesome podcasts"
+	# media_prefix = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/"
+	media_prefix = "audio/"
+  # media_prefix = "https://media.blubrry.com/www.dropbox.com/s/lmlhytyowajw0b1/"
+		[params.feed]
+		copyright = "Copyright 2018 Kengo Suzuki" #do not use markdown in this field; it is used in the feed
+    #itunes_subtitle = "The best podcast ever" #no markdown or HTML
+		itunes_author = "Kengo Suzuki" #no markdown or HTML
+		itunes_summary = "Awesome podcast in itunes"
+		itunes_owner_name = "Kengo Suzuki"
+		itunes_owner_email = "kengoscal@gmail.com"#contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
+    #itunes_image = "https://www.arresteddevops.com/img/ado-podcast-logo.png" #fqdn to the image art for your podcast
+    #itunes_top_category = "Technology"
+    #itunes_first_sub_category = "Software How-To"
+    #itunes_second_sub_category = "Tech News"
+    #language = "en-us"
 
-	permalink = "#"
+		[params.social]
+	    github = "ken5scal"
+	    twitter = "ken5scal"
+	    # twitter_domain = "arresteddevops.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+	    # googleplus = "ArrestedDevOps"
+	    # pinterest = "nozzleio"
+	    # instagram = "nozzleio"
+	    # youtube = "arresteddevops"
+	    # linkedin = "mattstratton"
 
-	# Custom assets
-	custom_css = []
-	custom_js  = []
+			[params.authors]
+		    [params.authors.Kengo]
+		      name	= "Kengo Suzuki"
+		      thumbnail = "images/host/ken5scal.png"
+		      bio = "Kengo Suzuki is a security architect/engineer at Folio, where he demonstrates how the modern security for both internal and external systems. He is devoted to concepts like Zero Trust and Risk Based approach utilizing Infrastructure as Code. He lives in Tokyo and has a hobby in playing tenor-sax, games, Andwhiskey."
+		      [params.authors.Kengo.social]
+		        github = "ken5scal"
+		        twitter = "ken5scal"
+		        homepage = "ken5scal.hatenablog.com"
 
-	# Syntax highlighting theme
-	highlight_css  = ""
-
-	[params.palette]
-        primary = "indigo"
-        accent  = "amber"
-
-    [params.font]
-        text = "Ubuntu"
-        code = "Ubuntu Mono"
-
-
-[social]
-    twitter = "ken5scal"
-    github  = "ken5scal"
-    # email   = "kengoscal@gmail.com"
-
-[[menu.main]]
-	name   = "Material"
-	url    = "/"
-	weight = 0
-
-[[menu.main]]
-	name	= "Blog"
-	url   = ""
-
-[[menu.main]]
-	name   = "Getting started"
-	url    = "getting-started/"
-	weight = 10
-
-[[menu.main]]
-	name   = "Adding content"
-	url    = "adding-content/"
-	weight = 20
-
-[[menu.main]]
-	name   = "Roadmap"
-	url    = "roadmap/"
-	weight = 30
-
+# 	# Params for hugo-material-docs
+# 	author = "ken5scal"
+# 	description = "セキュア旅団のページ説明"
+# 	copyright = "Released under the MIT license"
+#
+# 	# Repository
+# 	# provider = "GitHub"
+# 	# repo_url = "https://github.com/ken5scal/secure-brigate-blog"
+#
+# 	#version = "1.0.0"
+# 	logo = "images/logo.png"
+# 	favicon = ""
+#
+# 	permalink = "#"
+#
+# 	# Custom assets
+# 	custom_css = []
+# 	custom_js  = []
+#
+# 	# Syntax highlighting theme
+# 	highlight_css  = ""
+#
+# 	[params.palette]
+#         primary = "indigo"
+#         accent  = "amber"
+#
+#     [params.font]
+#         text = "Ubuntu"
+#         code = "Ubuntu Mono"
+#
+#
+# [social]
+#     twitter = "ken5scal"
+#     github  = "ken5scal"
+#     # email   = "kengoscal@gmail.com"
+#
 # [[menu.main]]
-# 	name   = "License"
-# 	url    = "license/"
-# 	weight = 40
+# 	name   = "Material"
+# 	url    = "/"
+# 	weight = 0
+#
+# [[menu.main]]
+# 	name	= "Blog"
+# 	url   = ""
+#
+# [[menu.main]]
+# 	name   = "Getting started"
+# 	url    = "getting-started/"
+# 	weight = 10
+#
+# [[menu.main]]
+# 	name   = "Adding content"
+# 	url    = "adding-content/"
+# 	weight = 20
+#
+# [[menu.main]]
+# 	name   = "Roadmap"
+# 	url    = "roadmap/"
+# 	weight = 30
+#
+# # [[menu.main]]
+# # 	name   = "License"
+# # 	url    = "license/"
+# # 	weight = 40
 
 
 [blackfriday]
