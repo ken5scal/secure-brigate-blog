@@ -43,12 +43,16 @@ hasCJKLanguage = true
 [social]
     twitter = "ken5scal"
     github  = "ken5scal"
-    email   = "kengoscal@gmail.com"
+    # email   = "kengoscal@gmail.com"
 
-#[[menu.main]]
-#	name   = "Material"
-#	url    = "/"
-#	weight = 0
+[[menu.main]]
+	name   = "Material"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name	= "Blog"
+	url   = ""
 
 [[menu.main]]
 	name   = "Getting started"
@@ -65,10 +69,10 @@ hasCJKLanguage = true
 	url    = "roadmap/"
 	weight = 30
 
-[[menu.main]]
-	name   = "License"
-	url    = "license/"
-	weight = 40
+# [[menu.main]]
+# 	name   = "License"
+# 	url    = "license/"
+# 	weight = 40
 
 
 [blackfriday]
