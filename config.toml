@@ -23,10 +23,10 @@ tag = "tags"
     identifier = "about"
     url = "about"
 
-[[Menu.Main]]
-    name = "Contact"
-    identifier = "contact"
-    url = "contact"
+# [[Menu.Main]]
+#     name = "Contact"
+#     identifier = "contact"
+#     url = "contact"
 
 [[Menu.Main]]
     name = "Hosts"
@@ -38,27 +38,22 @@ tag = "tags"
     identifier = "guests"
     url = "guest"
 
-[[Menu.Main]]
-    name = "Resources"
-    identifier = "resources"
-    url = "#!"
+# [[Menu.Main]]
+#     name = "Resources"
+#     identifier = "resources"
+#     url = "#!"
 
-[[Menu.Main]]
-    name = "Books"
-    identifier = "books"
-    url = "books"
-    parent = "resources"
-[[Menu.Main]]
-    name = "Podcasts"
-    identifier = "podcasts"
-    url = "books"
-    parent = "resources"
+# [[Menu.Main]]
+#     name = "Podcasts"
+#     identifier = "podcasts"
+#     url = "podcasts"
+    # parent = "resources"
 
 [params]
 	# param for Castanet https://github.com/mattstratton/castanet/blob/master/REFERENCE.md
-	site_theme = "orange"
-	site_layout = "grid"
-	# enable_jumbo = "true"
+	site_theme = "blue"
+	site_layout = "row"
+	enable_jumbo = "true"
 	# truncate = "600"
 	# custom_css = ["custom.css", "other_custom.css"]
 	about_logo = "images/logo.png"
