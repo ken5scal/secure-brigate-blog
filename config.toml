@@ -8,6 +8,9 @@ canonifyurls = true
 googleAnalytics = ""
 hasCJKLanguage = true
 
+[taxonomies]
+tag = "tags"
+
 [params]
 	# General information
 	author = "ken5scal"
