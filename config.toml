@@ -22,7 +22,7 @@ tag = "tags"
 	# repo_url = "https://github.com/ken5scal/secure-brigate-blog"
 
 	#version = "1.0.0"
-	logo = "logo.png"
+	logo = "images/logo.png"
 	favicon = ""
 
 	permalink = "#"
