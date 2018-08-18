@@ -49,41 +49,20 @@ tag = "tags"
         text = "Ubuntu"
         code = "Ubuntu Mono"
 
-
 [social]
     twitter = "ken5scal"
     github  = "ken5scal"
     # email   = "kengoscal@gmail.com"
 
 [[menu.main]]
-	name   = "Material"
+	name   = "Home"
 	url    = "/"
-	weight = 0
-
-[[menu.main]]
-	name	= "Blog"
-	url   = ""
-
-[[menu.main]]
-	name   = "Getting started"
-	url    = "getting-started/"
 	weight = 10
 
 [[menu.main]]
-	name   = "Adding content"
-	url    = "adding-content/"
+	name   = "About"
+	url    = "about/"
 	weight = 20
-
-[[menu.main]]
-	name   = "Roadmap"
-	url    = "roadmap/"
-	weight = 30
-
-# [[menu.main]]
-# 	name   = "License"
-# 	url    = "license/"
-# 	weight = 40
-
 
 [blackfriday]
 	smartypants	= true
