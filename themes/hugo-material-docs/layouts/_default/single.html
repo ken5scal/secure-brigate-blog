@@ -26,9 +26,7 @@
 		<div class="wrapper">
 			<h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
 
-			{{ .Content }}
-
-			{{ if .Params.podcast.isPodcast }} (hoge)
+			{{ if .Params.podcast.isPodcast }}
 			<div class="card-audio-wrapper">
 				<audio
 					class="card-audio mejs-player"
@@ -36,11 +34,11 @@
 					data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
 					preload="auto"
 					src="{{ .Params.podcast.path }}"
-					width="100%"
-				>
-				</audio>
+					width="100%"/>
 			</div>
 			{{ end }}
+
+			{{ .Content }}
 
 			<aside class="copyright" role="note">
 				{{ with .Site.Params.copyright }}
