@@ -1,7 +1,7 @@
 baseurl = "https://secure-brigade.com/"
 languageCode = "ja"
 title = "セキュア旅団"
-theme = "hugo-material-docs-customize"
+theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
 disqusShortname = "securebrigate"
