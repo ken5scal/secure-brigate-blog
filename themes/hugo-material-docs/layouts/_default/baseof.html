@@ -22,13 +22,10 @@
 		{{ partial "drawer" . }}
 	</div>
 
-	<article class="article">
-		<div class="wrapper">
-			{{ range where .Site.Pages "Type" "index" }}
-				<h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
+  <article class="article">
 
-				{{ .Content }}
-			{{ end }}
+      {{ block "main" .}}
+      {{ end }}
 
 			<aside class="copyright" role="note">
 				{{ with .Site.Params.copyright }}
@@ -46,7 +43,7 @@
 		</div>
 	</article>
 
-	<div class="results" role="status" aria-live="polite">
+  <div class="results" role="status" aria-live="polite">
 		<div class="scrollable">
 			<div class="wrapper">
 				<div class="meta"></div>
