@@ -7,7 +7,11 @@
     </div>
     <div class="stretch">
       <div class="title">
-        {{ .Title }}
+        {{ if (eq .Section "") }}
+          {{ .Title }}
+        {{ else }}
+          {{ humanize .Section }}
+        {{ end }}
       </div>
     </div>
 
