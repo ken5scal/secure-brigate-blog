@@ -1,7 +1,7 @@
 baseurl = "https://secure-brigade.com/"
 languageCode = "ja"
 title = "セキュア旅団"
-theme = "hugo-material-docs"
+theme = "hugo-material-docs-customize"
 metadataformat = "yaml"
 canonifyurls = true
 disqusShortname = "securebrigate"
@@ -60,9 +60,14 @@ tag = "tags"
 	weight = 10
 
 [[menu.main]]
+	name   = "Podcasts"
+	url    = "podcasts/"
+	weight = 20
+
+[[menu.main]]
 	name   = "About"
 	url    = "about/"
-	weight = 20
+	weight = 30
 
 [blackfriday]
 	smartypants	= true

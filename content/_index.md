@@ -3,7 +3,7 @@ date: 2016-03-08T21:07:13+01:00
 title: セキュア旅団
 type: index
 weight: 0
-tags: ["index"]
+##tags: ["index"]
 ---
 ## Announcements
 ### 10/08　技術書典５
