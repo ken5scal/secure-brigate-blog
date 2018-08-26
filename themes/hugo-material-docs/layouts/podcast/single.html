@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 		<div class="wrapper">
 			<h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
 
@@ -16,4 +15,9 @@
 				>
 				</audio>
 			</div>
+
+			<footer class="footer">
+				{{ partial "footer" . }}
+			</footer>
+		</div>
 {{ end }}
