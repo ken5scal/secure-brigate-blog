@@ -57,17 +57,17 @@ tag = "tags"
 [[menu.main]]
 	name   = "Home"
 	url    = "/"
-	weight = 10
+	weight = 0
 
 [[menu.main]]
 	name   = "Podcasts"
 	url    = "podcasts/"
-	weight = 20
+	weight = 10
 
 [[menu.main]]
 	name   = "About"
 	url    = "about/"
-	weight = 30
+	weight = 20
 
 [blackfriday]
 	smartypants	= true
