@@ -1,9 +1,7 @@
 ---
 title: "Episode 1"
-date: 2018-08-26T22:35:59+09:00
-draft: true
+date: 2018-08-20T22:35:59+09:00
 podcast:
-  isPodcast: true
   path: "/audio/episode-1.mp3"
 ---
 

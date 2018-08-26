@@ -17,17 +17,3 @@ weight: 0
 * ym405nm
 * bbr_bbq
 * gr4vit0n
-
-## Podcasts/Blogs
-### [エピソード.2](/audio/episode-2-a.m4a)
-* 参加者: [ken5scal](https://twitter.com/ken5scal), [ym405nm](https://twitter.com/ym405nm)
-* 前半戦: [Hitcon, JTF](/audio/episode-2-a.m4a)
-* 後半戦: [その他](/audio/episode-2-b.m4a)
-
-### [エピソード.1](/audio/episode-1.mp3)
-* 参加者: [ken5scal](https://twitter.com/ken5scal), [ym405nm](https://twitter.com/ym405nm)
-* トピック
-  - ECサイトにおけるフィッシングについて　
-  - metigojp[.]comのwhoisがGDPR maskedになってた
-  - Android老人会
-  - AIとセキュリティ人材
