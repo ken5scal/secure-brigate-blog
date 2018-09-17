@@ -1,9 +1,12 @@
 {{ define "main" }}
 		<div class="wrapper">
-			<h1>{{ .Title }} {{ partial "addthis" . }}{{ partial "addthis-script" . }} {{ if .IsDraft }} (Draft) {{ end }}
+			<h1>
+				{{ .Title }} {{ if .IsDraft }} (Draft) {{ end }}
 			</h1>
 
-			<h2>
+			<h5>{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}</h5>
+
+			<h3>
 				<div class="card-audio-wrapper">
 					<audio
 						class="card-audio mejs-player"
@@ -13,12 +16,15 @@
 						src="{{ .Params.podcast.path }}"
 						width="100%"/>
 				</div>
-			</h2>
 
-			{{ .Content }}
+				{{ partial "addthis" . }}{{ partial "addthis-script" . }}
 
-			<footer class="footer">
+				{{ .Content }}
+
+			</h3>
+
+			<!-- <footer class="footer">
 				{{ partial "footer" . }}
-			</footer>
+			</footer> -->
 		</div>
 {{ end }}
