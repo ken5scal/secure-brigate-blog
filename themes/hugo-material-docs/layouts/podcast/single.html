@@ -4,7 +4,7 @@
 				{{ .Title }} {{ if .IsDraft }} (Draft) {{ end }}
 			</h1>
 
-			<h5>{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}</h5>
+			<h4>{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}</h4>
 
 			<h3>
 				<div class="card-audio-wrapper">

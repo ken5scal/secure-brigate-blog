@@ -6,12 +6,12 @@ weight: 0
 ##tags: ["index"]
 ---
 ## Announcements
-### Podcast episode3「blackhat・DEF CONスペシャル」を公開しました。
+### 2018-09-17: Podcast episode3「blackhat・DEF CONスペシャル」を公開
 DEF CONおよびblackhatの（Arsenal）スピーカーおよび参加者が語られています。BSidesなどのサイドストーリーも盛りだくさんです。
 
  * https://secure-brigade.com/podcast/episode-3/
 
-### 技術書典５（10/08） 参加決定!
+### 2018-08-01: 技術書典５（10/08） 参加決定!
 技術書典５に参加します。場所は「あ１０」（下図参照）です。
 内容がきまったら、またお知らせします
 
