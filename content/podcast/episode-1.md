@@ -1,5 +1,5 @@
 ---
-title: "Episode 1"
+title: "Ep.1: ECサイトのフィッシングなど"
 date: 2018-08-20T22:35:59+09:00
 podcast:
   path: "/audio/episode-1.mp3"
