@@ -7,7 +7,7 @@ canonifyurls = true
 # disqusShortname = "securebrigate"
 # Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
-# hasCJKLanguage = true
+hasCJKLanguage = true
 
 [taxonomies]
 tag = "tags"
@@ -22,6 +22,7 @@ tag = "tags"
 	author = "ken5scal"
 	description = "セキュア旅団のページ説明"
 	copyright = "Released under the MIT license"
+	addThis = "ra-5b9fd83b4ed2ec67"
 
 	# Repository
 	# provider = "GitHub"

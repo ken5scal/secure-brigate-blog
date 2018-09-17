@@ -1,16 +1,19 @@
 {{ define "main" }}
 		<div class="wrapper">
-			<h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
+			<h1>{{ .Title }} {{ partial "addthis" . }}{{ partial "addthis-script" . }} {{ if .IsDraft }} (Draft) {{ end }}
+			</h1>
 
-			<div class="card-audio-wrapper">
-				<audio
-					class="card-audio mejs-player"
-					controls=""
-					data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
-					preload="auto"
-					src="{{ .Params.podcast.path }}"
-					width="100%"/>
-			</div>
+			<h2>
+				<div class="card-audio-wrapper">
+					<audio
+						class="card-audio mejs-player"
+						controls=""
+						data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
+						preload="auto"
+						src="{{ .Params.podcast.path }}"
+						width="100%"/>
+				</div>
+			</h2>
 
 			{{ .Content }}
 

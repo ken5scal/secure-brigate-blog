@@ -1,7 +1,7 @@
 ---
 title: "Ep.3: blackhat・DEF CONスペシャル"
 date: 2018-09-18T00:54:26+09:00
-draft: true
+draft: false
 podcast:
   path: "/audio/episode-3.m4a"
 ---
