@@ -1,4 +1,8 @@
 <nav aria-label="Header">
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
       <label class="toggle-button icon icon-menu" for="toggle-drawer">
