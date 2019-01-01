@@ -6,6 +6,11 @@ weight: 0
 ##tags: ["index"]
 ---
 ## Announcements
+### 2019-01-01: Podcast episode5「Secure旅団 Podcast 公開収録という名の忘年会SP」を公開
+年末に行ったイベントです。前半は、今年Podcastや技術書典でも話題になったFIDOで、後半は11月に名古屋で開催した「SECGAHARA 天下分け目のセキュリティ対決 in 名古屋」の運営メンバーを交えたトークをしました。今回のポッドキャストに収録されているのは前半部分になります。
+
+ * https://secure-brigade.com/podcast/episode-5/
+
 ### 2018-09-17: Podcast episode3「blackhat・DEF CONスペシャル」を公開
 DEF CONおよびblackhatの（Arsenal）スピーカーおよび参加者が語られています。BSidesなどのサイドストーリーも盛りだくさんです。
 
